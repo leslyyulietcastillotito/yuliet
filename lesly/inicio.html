@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inicio</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="inicio.html" class="logo"> <i class="fas fa-shopping-basket"></i> ARMY </a>
+
+    <nav class="navbar">
+        <a href="inicio.html">inicio</a>
+        <a href="tienda.html">tienda</a>
+        <a href="sobre.html">sobre</a>
+        <a href="blog.html">blog</a>
+        <a href="contactos.html">contactos</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="image/cart-1.jpg" alt="">
+            <div class="content">
+                <h3>alimentos</h3>
+                <span class="quantity">1</span>
+                <span class="multiply">x</span>
+                <span class="price">s/18.99</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="image/cart-2.jpg" alt="">
+            <div class="content">
+                <h3>alimentos</h3>
+                <span class="quantity">1</span>
+                <span class="multiply">x</span>
+                <span class="price">s/8.99</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <img src="image/cart-3.jpg" alt="">
+            <div class="content">
+                <h3>alimentos</h3>
+                <span class="quantity">1</span>
+                <span class="multiply">x</span>
+                <span class="price">s/20.00</span>
+            </div>
+        </div>
+        <h3 class="total"> total : <span>47.98</span> </h3>
+        <a href="#" class="btn">carrito de compras</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>iniciar sesion</h3>
+        <input type="email" placeholder="ingresar tu email" class="box">
+        <input type="clave" placeholder="ingrese su clave" class="box">
+        <div class="recuerda">
+            <input type="caja" name="" id="remember-me">
+            <label for="remember-me">recuerdame</label>
+        </div>
+        <input type="enviar" value="iniciar sesion" class="btn">
+        <p>¿contraseña olvidada?<a href="#"></a>haga clic aquí</p>
+        <p>no tienes una cuenta?<a href="#">crea uno</a></p>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<section class="home">
+
+    <div class="slides-container">
+
+        <div class="slide active">
+            <div class="content">
+                <span>alimentos muy ricos</span>
+                <h3>hasta el 50% </h3>
+                <a href="#" class="btn">comprar ahora</a>
+            </div>
+            <div class="image">
+                <img src="image/home-img-1.png" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <span>alimentos muy ricos</span>
+                <h3>hasta el 50% </h3>
+                <a href="#" class="btn">comprar ahora</a>
+            </div>
+            <div class="image">
+                <img src="image/home-img-2.png" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <span>alimentos muy ricos</span>
+                <h3>hasta el 50% </h3>
+                <a href="#" class="btn">comprar ahora</a>
+            </div>
+            <div class="image">
+                <img src="image/home-img-3.png" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+    <div id="prev-slide" class="fas fa-angle-left" onclick="next()"></div>
+
+</section>
+
+<section class="banner-container">
+
+    <div class="banner">
+        <img src="image/banner-1.jpg" alt="">
+        <div class="content">
+            <span>ventas limitadas</span>
+            <h3>hasta el 50% </h3>
+            <a href="#" class="btn">comprar ahora</a>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="image/banner-2.jpg" alt="">
+        <div class="content">
+            <span>ventas limitadas</span>
+            <h3>hasta el 50% </h3>
+            <a href="#" class="btn">comprar ahora</a>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="image/banner-3.jpg" alt="">
+        <div class="content">
+            <span>ventas limitadas</span>
+            <h3>hasta el 50% </h3>
+            <a href="#" class="btn">comprar ahora</a>
+        </div>
+    </div>
+
+</section>
+<!-- footer section starts  -->
+
+<section class="footer">
+</section>
+<!-- footer section ends -->
+<!-- custom css file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
